@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B98DC67F00D2C98B2320E67 /* Pods_MeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432FD323CE091BB824664485 /* Pods_MeChat.framework */; };
+		8C84594825F7831F0029040D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C84594725F7831F0029040D /* Assets.xcassets */; };
+		8CB05F8725F7765E0018793D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05F8625F7765E0018793D /* AppDelegate.swift */; };
+		8CB05F8925F7765E0018793D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05F8825F7765E0018793D /* SceneDelegate.swift */; };
+		8CB05F8B25F7765E0018793D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05F8A25F7765E0018793D /* ViewController.swift */; };
+		8CB05F9325F7765F0018793D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB05F9125F7765F0018793D /* LaunchScreen.storyboard */; };
+		8CB05F9C25F776940018793D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05F9B25F776940018793D /* Constants.swift */; };
+		8CB05F9F25F776980018793D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05F9E25F776980018793D /* Message.swift */; };
+		8CB05FAA25F776EF0018793D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05FA625F776EF0018793D /* ChatViewController.swift */; };
+		8CB05FAB25F776EF0018793D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05FA725F776EF0018793D /* WelcomeViewController.swift */; };
+		8CB05FAC25F776EF0018793D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05FA825F776EF0018793D /* LoginViewController.swift */; };
+		8CB05FAD25F776EF0018793D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05FA925F776EF0018793D /* RegisterViewController.swift */; };
+		8CB05FB525F777140018793D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB05FB125F777140018793D /* MessageCell.xib */; };
+		8CB05FB625F777140018793D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB05FB225F777140018793D /* Main.storyboard */; };
+		8CB05FB725F777140018793D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB05FB425F777140018793D /* MessageCell.swift */; };
+		8CB05FBB25F777EA0018793D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB05FBA25F777EA0018793D /* GoogleService-Info.plist */; };
+		8CB05FD225F77A1A0018793D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB05FD125F77A1A0018793D /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114A4BB855ABAECB80262C5F /* Pods-MeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeChat.release.xcconfig"; path = "Target Support Files/Pods-MeChat/Pods-MeChat.release.xcconfig"; sourceTree = "<group>"; };
+		432FD323CE091BB824664485 /* Pods_MeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C84594725F7831F0029040D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB05F8325F7765E0018793D /* MeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB05F8625F7765E0018793D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB05F8825F7765E0018793D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CB05F8A25F7765E0018793D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB05F9225F7765F0018793D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB05F9425F7765F0018793D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB05F9B25F776940018793D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CB05F9E25F776980018793D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8CB05FA625F776EF0018793D /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8CB05FA725F776EF0018793D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8CB05FA825F776EF0018793D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8CB05FA925F776EF0018793D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8CB05FB125F777140018793D /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		8CB05FB325F777140018793D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB05FB425F777140018793D /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		8CB05FBA25F777EA0018793D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B4C2636A145FD903FAB8E14 /* Pods-MeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeChat.debug.xcconfig"; path = "Target Support Files/Pods-MeChat/Pods-MeChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB05F8025F7765E0018793D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B98DC67F00D2C98B2320E67 /* Pods_MeChat.framework in Frameworks */,
+				8CB05FD225F77A1A0018793D /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3B3CB6FB2073EB8BB5C8A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B4C2636A145FD903FAB8E14 /* Pods-MeChat.debug.xcconfig */,
+				114A4BB855ABAECB80262C5F /* Pods-MeChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CB05F7A25F7765E0018793D = {
+			isa = PBXGroup;
+			children = (
+				8CB05F8525F7765E0018793D /* MeChat */,
+				8CB05F8425F7765E0018793D /* Products */,
+				1F3B3CB6FB2073EB8BB5C8A4 /* Pods */,
+				A84FCA4B736AAD9A12808B31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB05F8425F7765E0018793D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB05F8325F7765E0018793D /* MeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB05F8525F7765E0018793D /* MeChat */ = {
+			isa = PBXGroup;
+			children = (
+				8CB05F9B25F776940018793D /* Constants.swift */,
+				8CB05F9E25F776980018793D /* Message.swift */,
+				8C84594725F7831F0029040D /* Assets.xcassets */,
+				8CB05F8625F7765E0018793D /* AppDelegate.swift */,
+				8CB05FA525F776EF0018793D /* Controllers */,
+				8CB05FB025F777140018793D /* Views */,
+				8CB05F9425F7765F0018793D /* Info.plist */,
+				8CB05FBA25F777EA0018793D /* GoogleService-Info.plist */,
+				8CB05F8825F7765E0018793D /* SceneDelegate.swift */,
+				8CB05F8A25F7765E0018793D /* ViewController.swift */,
+			);
+			path = MeChat;
+			sourceTree = "<group>";
+		};
+		8CB05FA525F776EF0018793D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB05FA625F776EF0018793D /* ChatViewController.swift */,
+				8CB05FA725F776EF0018793D /* WelcomeViewController.swift */,
+				8CB05FA825F776EF0018793D /* LoginViewController.swift */,
+				8CB05FA925F776EF0018793D /* RegisterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CB05FB025F777140018793D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CB05F9125F7765F0018793D /* LaunchScreen.storyboard */,
+				8CB05FB125F777140018793D /* MessageCell.xib */,
+				8CB05FB225F777140018793D /* Main.storyboard */,
+				8CB05FB425F777140018793D /* MessageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A84FCA4B736AAD9A12808B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432FD323CE091BB824664485 /* Pods_MeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB05F8225F7765E0018793D /* MeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB05F9725F7765F0018793D /* Build configuration list for PBXNativeTarget "MeChat" */;
+			buildPhases = (
+				BA6452F9152623E9A960FC01 /* [CP] Check Pods Manifest.lock */,
+				8CB05F7F25F7765E0018793D /* Sources */,
+				8CB05F8025F7765E0018793D /* Frameworks */,
+				8CB05F8125F7765E0018793D /* Resources */,
+				662F2985AF240078C7F492B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeChat;
+			packageProductDependencies = (
+				8CB05FD125F77A1A0018793D /* IQKeyboardManagerSwift */,
+			);
+			productName = MeChat;
+			productReference = 8CB05F8325F7765E0018793D /* MeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB05F7B25F7765E0018793D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8CB05F8225F7765E0018793D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8CB05F7E25F7765E0018793D /* Build configuration list for PBXProject "MeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB05F7A25F7765E0018793D;
+			packageReferences = (
+				8CB05FD025F77A1A0018793D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 8CB05F8425F7765E0018793D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB05F8225F7765E0018793D /* MeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB05F8125F7765E0018793D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB05F9325F7765F0018793D /* LaunchScreen.storyboard in Resources */,
+				8CB05FB525F777140018793D /* MessageCell.xib in Resources */,
+				8CB05FBB25F777EA0018793D /* GoogleService-Info.plist in Resources */,
+				8C84594825F7831F0029040D /* Assets.xcassets in Resources */,
+				8CB05FB625F777140018793D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		662F2985AF240078C7F492B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeChat/Pods-MeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeChat/Pods-MeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeChat/Pods-MeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6452F9152623E9A960FC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB05F7F25F7765E0018793D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB05FAD25F776EF0018793D /* RegisterViewController.swift in Sources */,
+				8CB05FB725F777140018793D /* MessageCell.swift in Sources */,
+				8CB05F8B25F7765E0018793D /* ViewController.swift in Sources */,
+				8CB05F8725F7765E0018793D /* AppDelegate.swift in Sources */,
+				8CB05F9F25F776980018793D /* Message.swift in Sources */,
+				8CB05F8925F7765E0018793D /* SceneDelegate.swift in Sources */,
+				8CB05FAC25F776EF0018793D /* LoginViewController.swift in Sources */,
+				8CB05FAA25F776EF0018793D /* ChatViewController.swift in Sources */,
+				8CB05F9C25F776940018793D /* Constants.swift in Sources */,
+				8CB05FAB25F776EF0018793D /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CB05F9125F7765F0018793D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB05F9225F7765F0018793D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB05FB225F777140018793D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB05FB325F777140018793D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB05F9525F7765F0018793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB05F9625F7765F0018793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB05F9825F7765F0018793D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4C2636A145FD903FAB8E14 /* Pods-MeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5CM3J2T89;
+				INFOPLIST_FILE = MeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.niab.mechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB05F9925F7765F0018793D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114A4BB855ABAECB80262C5F /* Pods-MeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5CM3J2T89;
+				INFOPLIST_FILE = MeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.niab.mechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB05F7E25F7765E0018793D /* Build configuration list for PBXProject "MeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB05F9525F7765F0018793D /* Debug */,
+				8CB05F9625F7765F0018793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB05F9725F7765F0018793D /* Build configuration list for PBXNativeTarget "MeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB05F9825F7765F0018793D /* Debug */,
+				8CB05F9925F7765F0018793D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CB05FD025F77A1A0018793D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CB05FD125F77A1A0018793D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB05FD025F77A1A0018793D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CB05F7B25F7765E0018793D /* Project object */;
+}
